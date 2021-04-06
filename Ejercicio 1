@@ -1,0 +1,5 @@
+numero = int(input("Digite un numero :"))
+if numero % 3 == 0 and numero % 5 == 0:
+    print("El numero SI cumple")
+else:
+    print("El numero NO cumple")
