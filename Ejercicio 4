@@ -1,0 +1,15 @@
+n1 = int(input("Digite el puntaje obtenido :"))
+puntaje = n1
+if puntaje >= 90:
+    print("A")
+else:
+    if puntaje >= 80:
+        print("B")
+    else:
+        if puntaje >= 70:
+            print("C")
+        else:
+            if puntaje >= 60:
+                print("D")
+            else:
+                print("F")
